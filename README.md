@@ -17,16 +17,16 @@ colour picker         //input[@name='my-colors']
 ################# Upload File #########################
 Choose File           //input[@type="file"]
 
-//2. This is the javascriptexecutor method
+	//2. This is the javascriptexecutor method
 		JavascriptExecutor js=(JavascriptExecutor) driver;
 		js.executeScript("arguments[0].click();",driver.findElement(By.xpath("//input[@type='file']")));
 	
-//File Path Selection, Copying file path into clipboard ctrl + c
+	//File Path Selection, Copying file path into clipboard ctrl + c
 		StringSelection filePathSelection = new StringSelection("C:\\Users\\appun\\Downloads\\src.png");
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(filePathSelection, null);
 		Thread.sleep(3000);
 
-//Robot Class, Ctrl + V
+	//Robot Class, Ctrl + V
 		Robot rm =new Robot();
 		rm.keyPress(KeyEvent.VK_CONTROL);
 		rm.keyPress(KeyEvent.VK_V);
