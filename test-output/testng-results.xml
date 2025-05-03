@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-03T09:20:11 IST" name="Default suite" finished-at="2025-05-03T09:20:25 IST" duration-ms="14674">
+    <groups>
+    </groups>
+    <test started-at="2025-05-03T09:20:11 IST" name="Default test" finished-at="2025-05-03T09:20:25 IST" duration-ms="14674">
+      <class name="webForm_Project.WebForm">
+        <test-method is-config="true" signature="system_driver()[pri:0, instance:webForm_Project.WebForm@9d5509a]" started-at="2025-05-03T09:20:11 IST" name="system_driver" finished-at="2025-05-03T09:20:15 IST" duration-ms="3976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- system_driver -->
+        <test-method signature="color_pick()[pri:9, instance:webForm_Project.WebForm@9d5509a]" started-at="2025-05-03T09:20:15 IST" name="color_pick" finished-at="2025-05-03T09:20:15 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- color_pick -->
+        <test-method is-config="true" signature="system_logout()[pri:0, instance:webForm_Project.WebForm@9d5509a]" started-at="2025-05-03T09:20:15 IST" name="system_logout" finished-at="2025-05-03T09:20:25 IST" duration-ms="10560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- system_logout -->
+      </class> <!-- webForm_Project.WebForm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
